@@ -4,8 +4,9 @@ This folder contains the scripts and data files needed to complete the
 exercises associated with the *Astronomy at High Speed* section of
 ThaiPASS 2021.
 
-You should download all the files you see here (except for this README)
-to a single folder of your PC or laptop. Then run the Jupyter notebook
-*AstronomyAtHighSpeed.ipnb* to start the excercises.
+You should have all of the files on your PC/laptop if you have cloned the
+ThaiPASS 2021 repository. Once you have, navigate your way to the
+*Astronomy at high speed* folder, and start Jupyter notebook to run
+the notebook you will see there.
 
 Tom Marsh, University of Warwick, UK.
