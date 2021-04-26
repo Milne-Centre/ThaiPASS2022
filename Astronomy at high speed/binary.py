@@ -7,6 +7,7 @@ darkening.
 
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.patches import Circle
 
 def format_axes(axes):
     """
@@ -350,6 +351,82 @@ class Measure():
         self.press=False; self.move=False
 
 
+class UpdateBinary:
+
+    """
+    Class to support use of matplotlib.animation.FuncAnimation
+    for swift updating of plots to allow creation of movies.
+
+    This one expects two axes one for shoing the binary, the
+    other for the light curve.
+    """
+    
+    def __init__(self, axb, axl, phases, lc, iangle, r1, r2, a1, a2):
+
+        """
+        Initialises the plot.
+        """
+        self.axb = axb
+        self.axl = axl
+        self.phases = phases
+        self.lc = lc
+        self.cosi = np.cos(np.radians(iangle))
+        self.r1 = r1
+        self.r2 = r2
+        self.a1 = a1
+        self.a2 = a2
+        
+        self.axb.set_xlim(-1.1,1.1)
+        self.axb.set_ylim(-0.35,0.35)
+        self.axb.set_aspect('equal')
+        self.axb.set_xlabel('$x$')
+        self.axb.set_ylabel('$y$')
+        self.axb.set_title(f'i = {iangle}, r1 = {r1}, r2 = {r2}')
+        
+        self.axl.set_xlim(-0.1,0.9)
+        self.axl.set_ylim(0,0.6)
+        self.axl.set_xlabel('Orbital phase [cycles]')
+        self.axl.set_ylabel('Flux')
+
+        # Create and plot stars
+        cosp = np.cos(2.*np.pi*self.phases[0])
+        sinp = np.sin(2.*np.pi*self.phases[0])
+        self.star1 = Circle((-self.a1*sinp, self.a1*self.cosi*cosp), self.r1, color='b', zorder=5)
+        if cosp > 0:
+            self.star2 = Circle((self.a2*sinp, -self.a2*self.cosi*cosp), self.r2, color='r', zorder=10, alpha=0.9)
+        else:
+            self.star2 = Circle((self.a2*sinp, -self.a2*self.cosi*cosp), self.r2, color='r', zorder=0)
+
+        self.axb.add_artist(self.star1)
+        self.axb.add_artist(self.star2)
+
+        # Plot light curve
+        self.axl.plot(self.phases, self.lc, '0.7', zorder=0)
+        self.lcpl, = self.axl.plot(self.phases[:1], self.lc[:1], 'g', lw=3, zorder=1)
+        self.lcpt, = self.axl.plot(self.phases[0], self.lc[0], 'ok')
+        
+
+    def __call__(self, n):
+        
+        # Update stars
+        cosp = np.cos(2.*np.pi*self.phases[n])
+        sinp = np.sin(2.*np.pi*self.phases[n])
+        self.star1.set_center((-self.a1*sinp, self.a1*self.cosi*cosp))
+        self.star2.set_center((self.a2*sinp, -self.a2*self.cosi*cosp))
+        if cosp > 0:
+            self.star2.set_zorder(10)
+        else:
+            self.star2.set_zorder(0)
+
+        # Update lc plot
+        self.lcpl.set_data(self.phases[:n], self.lc[:n])
+        self.lcpt.set_data(self.phases[n], self.lc[n])
+
+        # Return list of "artist" objects that have been updated
+        # This is the essential property required of the "func"
+        # argument of FuncAnimation
+        return (self.star1, self.star2, self.lcpl, self.lcpt)        
+                
 if __name__ == '__main__':
 
     phase3, phase4, f0, f1, f2 = 0.0073970705738562945, 0.0664016960580229, 1.4398232550213454, 0.2304931639141266, 1.3277282161981918
