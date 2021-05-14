@@ -1,5 +1,5 @@
 
-# ThaiPASS2021
+# ThaiPASS2021 - Exoplanets
 
 ##########################################
 
@@ -12,3 +12,5 @@ There are 4 parts in the project. The first 2 are not that difficult but the las
 Before trying the questions please watch the "Exoplanets Lecture" (available from 14th May), the the "Exoplanets Project Overview" (available from 17th May) on the YouTube channel. At all times feel free to ask questions on Slack. 
 
 I hope you will enjoy this project and learn some interesting things!
+
+Dimitris Stamatellos
