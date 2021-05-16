@@ -3,6 +3,24 @@
 
 ##########################################
 
+
+
+##########################################
+
+
+
+## Description of the current folders:
+
+### The Lives of Stars
+Tasks for "The Lives of Stars" course prepared by the University of Hull. Please watch the YouTube video on our channel before attempting these exercises.
+
+### Astronomy at High Speed
+Tasks for the "Astronomy at High Speed" course prepared by the University of Warwick. Please watch the YouTube video on our channel before attempting these exercises.
+
+### Exoplanets
+Tasks for the "Exoplanets" course prepared by the University of Warwick. Please watch the YouTube video on our channel before attempting these exercises.
+
+### Pre-Tasks
 All student participants must complete and submit the pre-ThaiPASS exercise before arriving at ThaiPASS. This is located in the 'Pre-Tasks' folder. Instructions on using Git Hub are provided below. 
 
 For students with little or no Python experience, we recommend that you register and work on the basic Python ThaiMOOC by Dr Teeraparb Chantavat.
@@ -15,25 +33,14 @@ Try your best to answer all questions. We are not looking for perfect answers, b
 
 You are welcome to send us any questions (in English) about this exercise or about Python. We will be happy to hear from you. 
 
-Good luck!
-
-##########################################
-
-
-
-## Description of the current folders:
-
 ### Tutorials
-Contains the Basic and Advanced python notebooks.
-
-### Pre-Tasks
-Problems for the mandatory work pre-attendance. 
+Contains more advanced Python notebooks and optional exercises for the pre-tasks.
 
 
 
-## How to use Git Hub
+## How to use GitHub
 
-Using Git Hub is a great tool for professionals who write programs. What makes it so great to use is that if there changes to the docts and pieces of written code, usually to fix problems or 'bugs', they can be uploaded to Git Hub and then everyone that uses the code from that repository can then update their versions quickly and simply 'at the push of a button'.
+Using GitHub is a great tool for professionals who write programs. What makes it so great to use is that if there changes to the docts and pieces of written code, usually to fix problems or 'bugs', they can be uploaded to Git Hub and then everyone that uses the code from that repository can then update their versions quickly and simply 'at the push of a button'.
 
 Now, we should start by downloading everything on this repository. To do this we will use the git hub desktop software: for Apple MacOS users [click here](https://central.github.com/deployments/desktop/desktop/latest/darwin "Git Hub MacOS"), for Microsoft Windows OS users [click here](https://central.github.com/deployments/desktop/desktop/latest/win32 "Git Hub Windows OS"). 
 
@@ -43,7 +50,7 @@ When you have loaded the application, there will be a screen that will ask you i
 
 The next screen will ask you to input your name and e-mail address, please do fill in each of these fields and then continue onto the next page. We will detail how to download a repository below. 
 
-#### Downloading Repositories using Git Hub 
+#### Downloading Repositories using GitHub 
 
 We will now guide you through downloading (known as "cloning") a repository from git hub using the desktop software
 
@@ -59,7 +66,7 @@ We will now guide you through downloading (known as "cloning") a repository from
 
 - When you are happy with the location of your cloned directory, press the blue "Clone" button in the bottom-right corner of the box.
 
-#### Updating Repositories using Git Hub
+#### Updating Repositories using GitHub
 
 During the week of the school, we may add new things to this repository. So, we will need to update what we have already downloaded.
 
@@ -71,11 +78,8 @@ During the week of the school, we may add new things to this repository. So, we 
 
 You now have updated the repository with the latest changes and files.
 
-We hope you will enjoy your time preparing for the school, and do not forget to contact the ThaiPASS UK team with any questions or problems you may have with the tasks we supply here. E-mail: thaipass@hull.ac.uk 
 
-Regards,
 
-The ThaiPASS UK Team
 
 
 
