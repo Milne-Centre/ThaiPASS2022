@@ -8,13 +8,13 @@
 ## Description of the current folders:
 
 ### The Lives of Stars
-Tasks for "The Lives of Stars" course prepared by the University of Hull. Please watch the YouTube video on our channel before attempting these exercises.
+Tasks for "The Lives of Stars" course prepared by the University of Hull. Please watch the YouTube video on our channel before attempting these exercises. Please ask questions on Slack.
 
 ### Astronomy at High Speed
-Tasks for the "Astronomy at High Speed" course prepared by the University of Warwick. Please watch the YouTube video on our channel before attempting these exercises.
+Tasks for the "Astronomy at High Speed" course prepared by the University of Warwick. Please watch the YouTube video on our channel before attempting these exercises. Please ask questions on Slack.
 
 ### Exoplanets
-Tasks for the "Exoplanets" course prepared by the University of Central Lancashire. Please watch the YouTube video on our channel before attempting these exercises.
+Tasks for the "Exoplanets" course prepared by the University of Central Lancashire. Please watch the YouTube video on our channel before attempting these exercises. Please ask questions on Slack.
 
 ### Pre-Tasks
 All student participants must complete and submit the pre-ThaiPASS exercise before arriving at ThaiPASS. This is located in the 'Pre-Tasks' folder. Instructions on using Git Hub are provided below. 
