@@ -14,7 +14,7 @@ Tasks for "The Lives of Stars" course prepared by the University of Hull. Please
 Tasks for the "Astronomy at High Speed" course prepared by the University of Warwick. Please watch the YouTube video on our channel before attempting these exercises.
 
 ### Exoplanets
-Tasks for the "Exoplanets" course prepared by the University of Warwick. Please watch the YouTube video on our channel before attempting these exercises.
+Tasks for the "Exoplanets" course prepared by the University of Central Lancashire. Please watch the YouTube video on our channel before attempting these exercises.
 
 ### Pre-Tasks
 All student participants must complete and submit the pre-ThaiPASS exercise before arriving at ThaiPASS. This is located in the 'Pre-Tasks' folder. Instructions on using Git Hub are provided below. 
