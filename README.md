@@ -5,10 +5,6 @@
 
 
 
-##########################################
-
-
-
 ## Description of the current folders:
 
 ### The Lives of Stars
