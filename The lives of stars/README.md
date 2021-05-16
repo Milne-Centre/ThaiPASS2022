@@ -3,7 +3,7 @@
 
 ##########################################
 
-In this folder is the python notebook for the tasks you need to complete for the "lives of stars' section, there is also a data file you will need for the last task.
+In this folder is the python notebook for the tasks you need to complete for the 'lives of stars' section, there is also a data file you will need for the last task.
 
 Please watch the lecture on youtube before completing these tasks.
 
