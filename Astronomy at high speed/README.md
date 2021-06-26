@@ -1,5 +1,9 @@
 # Astronomy at High Speed
 
+2021-06-26 update: I have now added files representing example
+solutions. See AstronomyAtHighSpeedSolutions.ipynb which should just
+display OK on the github page if you click it.
+
 This folder contains the scripts and data files needed to complete the
 exercises associated with the *Astronomy at High Speed* section of
 ThaiPASS 2021.
