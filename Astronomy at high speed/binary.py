@@ -391,19 +391,25 @@ class UpdateBinary:
         # Create and plot stars
         cosp = np.cos(2.*np.pi*self.phases[0])
         sinp = np.sin(2.*np.pi*self.phases[0])
-        self.star1 = Circle((-self.a1*sinp, self.a1*self.cosi*cosp), self.r1, color='b', zorder=5)
+        self.star1 = Circle((-self.a1*sinp, self.a1*self.cosi*cosp), self.r1, color='b', zorder=5, animated=True)
         if cosp > 0:
-            self.star2 = Circle((self.a2*sinp, -self.a2*self.cosi*cosp), self.r2, color='r', zorder=10, alpha=0.9)
+            self.star2 = Circle(
+                (self.a2*sinp, -self.a2*self.cosi*cosp), self.r2, color='r',
+                zorder=10, alpha=0.9, animated=True
+            )
         else:
-            self.star2 = Circle((self.a2*sinp, -self.a2*self.cosi*cosp), self.r2, color='r', zorder=0)
+            self.star2 = Circle(
+                (self.a2*sinp, -self.a2*self.cosi*cosp), self.r2, color='r',
+                zorder=0, animated=True
+            )
 
         self.axb.add_artist(self.star1)
         self.axb.add_artist(self.star2)
 
         # Plot light curve
         self.axl.plot(self.phases, self.lc, '0.7', zorder=0)
-        self.lcpl, = self.axl.plot(self.phases[:1], self.lc[:1], 'g', lw=3, zorder=1)
-        self.lcpt, = self.axl.plot(self.phases[0], self.lc[0], 'ok')
+        self.lcpl, = self.axl.plot(self.phases[:1], self.lc[:1], 'g', lw=3, zorder=1, animated=True)
+        self.lcpt, = self.axl.plot(self.phases[0], self.lc[0], 'ok', animated=True)
         
 
     def __call__(self, n):
