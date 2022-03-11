@@ -15,9 +15,6 @@ Try your best to answer all questions. We are not looking for perfect answers, b
 
 You are welcome to send us any questions (in English) about this exercise or about Python. We will be happy to hear from you on Slack, or via email: siri.chongchitnan@warwick.ac.uk
 
-### Tutorials
-Contains more advanced Python notebooks and optional exercises for the pre-tasks.
-
 ## How to use GitHub
 
 Using GitHub is a great tool for professionals who write programs. What makes it so great to use is that if there changes to the docts and pieces of written code, usually to fix problems or 'bugs', they can be uploaded to Git Hub and then everyone that uses the code from that repository can then update their versions quickly and simply 'at the push of a button'.
