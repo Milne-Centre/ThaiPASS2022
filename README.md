@@ -1,38 +1,22 @@
 # ThaiPASS2022
-
-
+Main website:
+https://indico.narit.or.th/event/162/
 ##########################################
-
-
 
 ## Description of the current folders:
 
-### The Lives of Stars
-Tasks for "The Lives of Stars" course prepared by the University of Hull. Please watch the YouTube video on our channel before attempting these exercises. Please ask questions on Slack.
+We highly recommend that you complete the Pre-ThaiPASS homework. This will earn you the "Basic Python" achievement on the ThaiPASS certificate. It will also give you important preparation for the other astronomy tasks.
 
-### Astronomy at High Speed
-Tasks for the "Astronomy at High Speed" course prepared by the University of Warwick. Please watch the YouTube video on our channel before attempting these exercises. Please ask questions on Slack.
+The exercise is contained in an iPython notebook which you can use Anaconda to open (using the Jupyter Notebook application).
 
-### Exoplanets
-Tasks for the "Exoplanets" course prepared by the University of Central Lancashire. Please watch the YouTube video on our channel before attempting these exercises. Please ask questions on Slack.
-
-### Pre-Tasks
-All student participants must complete and submit the pre-ThaiPASS exercise before arriving at ThaiPASS. This is located in the 'Pre-Tasks' folder. Instructions on using Git Hub are provided below. 
-
-For students with little or no Python experience, we recommend that you register and work on the basic Python ThaiMOOC by Dr Teeraparb Chantavat.
-
-The exercise will be in the form of an iPython notebook which you can use Anaconda to open (using the Jupyter Notebook application).
-
-Please edit the iPython notebook and email it to thaipass@hull.ac.uk  by 1st April 2021, 12noon (Thai time).
+Please edit the iPython notebook. Instructions for submission will be on the ThaiPASS'22 website.
 
 Try your best to answer all questions. We are not looking for perfect answers, but we want to see that you have tried your best! We will give feedback to all submissions.
 
-You are welcome to send us any questions (in English) about this exercise or about Python. We will be happy to hear from you. 
+You are welcome to send us any questions (in English) about this exercise or about Python. We will be happy to hear from you on Slack, or via email: siri.chongchitnan@warwick.ac.uk
 
 ### Tutorials
 Contains more advanced Python notebooks and optional exercises for the pre-tasks.
-
-
 
 ## How to use GitHub
 
@@ -56,7 +40,7 @@ We will now guide you through downloading (known as "cloning") a repository from
 
 - Please click on "Clone a Repository", you will then be presented with the box with different 'tabs' to choose from, select "URL" (see below). 
 
-- Then copy and past this link, https://github.com/Milne-Centre/ThaiPASS2021.git, into the Repository URL Box. You then may choose the location on where the folders and files from the repository are downloaded/cloned to by clicking on the "Choose..." button.
+- Then copy and past this link, https://github.com/Milne-Centre/ThaiPASS2022.git, into the Repository URL Box. You then may choose the location on where the folders and files from the repository are downloaded/cloned to by clicking on the "Choose..." button.
 
 ![alt text](https://github.com/Milne-Centre/ThaiPASS2018/blob/master/ExampleTwo.png "Screenshot of Clone a Repository Box GUI")
 
@@ -66,11 +50,11 @@ We will now guide you through downloading (known as "cloning") a repository from
 
 During the week of the school, we may add new things to this repository. So, we will need to update what we have already downloaded.
 
-- To do this in 'Git Hub Desktop', select "ThaiPASS2021" on the left hand side of the git hub desktop window (see the red arrow in image below), if it is not already selected.
+- To do this in 'GitHub Desktop', select "ThaiPASS2022" on the left hand side of the git hub desktop window (see the red arrow in image below), if it is not already selected.
 
 ![alt text](https://github.com/Milne-Centre/ThaiPASS2018/blob/master/updateghrepos.png "Screenshot of Updating a Repository with GUI")
 
-- With the "ThaiPASS2021" repository selected within git hub desktop, now click the "Fetch Origin" button (as indicated by the blue arrow).
+- With the "ThaiPASS2022" repository selected within git hub desktop, now click the "Fetch Origin" button (as indicated by the blue arrow).
 
 You now have updated the repository with the latest changes and files.
 
