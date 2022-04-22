@@ -8,6 +8,7 @@ darkening.
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
+from IPython.core.display import SVG
 
 def format_axes(axes):
     """
@@ -410,10 +411,10 @@ class UpdateBinary:
         self.axl.plot(self.phases, self.lc, '0.7', zorder=0)
         self.lcpl, = self.axl.plot(self.phases[:1], self.lc[:1], 'g', lw=3, zorder=1, animated=True)
         self.lcpt, = self.axl.plot(self.phases[0], self.lc[0], 'ok', animated=True)
-        
+
 
     def __call__(self, n):
-        
+
         # Update stars
         cosp = np.cos(2.*np.pi*self.phases[n])
         sinp = np.sin(2.*np.pi*self.phases[n])
@@ -431,8 +432,31 @@ class UpdateBinary:
         # Return list of "artist" objects that have been updated
         # This is the essential property required of the "func"
         # argument of FuncAnimation
-        return (self.star1, self.star2, self.lcpl, self.lcpt)        
-                
+        return (self.star1, self.star2, self.lcpl, self.lcpt)
+
+def hint_A1():
+
+    print("""
+Hint for A1:
+
+Consider the length of the line AB in the figure below, which
+shows a side-on view of the circular orbit seen from a direction
+perpendicular to both the orbital axis and the Earth vector:
+""")
+
+    return SVG(filename='hint-A1.svg')
+
+def hint_A2():
+
+    print("""
+Hint for A2:
+
+The diagram below shows our view of the critical case where
+total eclipses just occur:
+""")
+
+    return SVG(filename='hint-A2.svg')
+
 if __name__ == '__main__':
 
     phase3, phase4, f0, f1, f2 = 0.0073970705738562945, 0.0664016960580229, 1.4398232550213454, 0.2304931639141266, 1.3277282161981918
