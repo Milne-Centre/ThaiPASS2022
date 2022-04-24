@@ -457,6 +457,36 @@ total eclipses just occur:
 
     return SVG(filename='hint-A2.svg')
 
+def hint_A3():
+
+    print("""
+Hint for A3:
+
+The diagram below shows our view of the critical case where
+eclipses only just occur:
+""")
+
+    return SVG(filename='hint-A3.svg')
+
+def hint_B1():
+
+    print("""
+Hint for B1:
+
+This is an application of Pythagoras's theorem, but you need to think about
+what is the separation on the sky of the centres of the two stars at the times
+of the third and fourth contact points.
+""")
+
+def hint_B3():
+
+    print("""
+Hint for B3:
+
+You need to think carefully about which parameters from the two relations
+of Ex B.1 will be known when a new binary is discovered.
+""")
+
 if __name__ == '__main__':
 
     phase3, phase4, f0, f1, f2 = 0.0073970705738562945, 0.0664016960580229, 1.4398232550213454, 0.2304931639141266, 1.3277282161981918
